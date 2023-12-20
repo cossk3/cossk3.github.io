@@ -3,6 +3,7 @@ layout: post
 title: "[Flutter] Widget 생성자에서 볼 수 있는 Key는 무엇일까?"
 categories: ["Language", "Flutter"]
 tags: ["flutter", "flutter widget key", "플러터"]
+toc: true
 ---
 
 기본적으로 Flutter에서의 위젯은 생성자에서 `Key` 매개변수를 받을 수 있는 것을 볼 수 있다. 하지만 사용하는 경우는 많이 없어 `Key`가 무엇인지, 어떻게 사용되는지는 알 수가  없었다. 그래서 도대체 이 `Key`는 무엇인지, 또 언제 어디에서 사용되는지를 알아보자.
