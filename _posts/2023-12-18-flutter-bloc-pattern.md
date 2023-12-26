@@ -9,7 +9,7 @@ Provider 패턴보다 다소 복잡해 보이는 BLoC 패턴에 대해 알아보
 
 ---
 
-# BLoC 패턴이란?
+# BLoC 패턴이란? 
 
 `BLoC 패턴`을 사용하면 `Presentation`과 `Business Logic`을 쉽게 분리하여 코드를 빠르고, 테스트 하기에 용이하며, 재사용이 가능하게끔 한다.
 
