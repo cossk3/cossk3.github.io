@@ -4,53 +4,41 @@ title: "[2022.02 ~ 2023.03] 전기차 충전기 Flutter 앱"
 categories: ["Portfolio", "KoolSign"]
 ---
 
-# 전기차 충전기 앱 KoolCharge
+# 전기차 충전기 앱 개발
 <p width="100%">
   <img src="https://github.com/cossk3/allseoul/assets/44231144/3befe1fe-4007-4a43-8b1b-2bb13026cad8" width="100%">
 </p>
 
-> Language : Flutter, java, swift   
+> 개발 언어 : Flutter, java, swift   
 > 개발 도구 : Android Studio, XCode
+> 개발 환경 : Windows   
 > 개발 기간 : 2022.02 ~ 2023.03   
 > 개발 인원 : 1명   
 > > <a href="https://play.google.com/store/apps/details?id=net.koolsign.charge_app&hl=ko-KR" style="text-decoration:none;color:blue;">Google Play 링크</a>   
 > > <a href="https://apps.apple.com/kr/app/koolcharge-%EC%BF%A8%EC%B0%A8%EC%A7%80-%EB%82%98%EB%A5%BC-%EC%95%8C%EC%95%84%EB%B3%B4%EB%8A%94-ai%EC%B6%A9%EC%A0%84/id1663150470" style="text-decoration:none;color:blue;">App Store 링크</a>   
 
 ---
-# 주요 기능
+# 개발 기능
 > **[외부 API]**   
-> <a href="#a1" style="text-decoration:none;color:black;">● Firebase Cloud Messaging API</a>   
-> <a href="#a2" style="text-decoration:none;color:black;">● Map API</a>    
-> > <a href="#a2-1" style="text-decoration:none;color:black;">Naver Map API</a>    
-> > <a href="#a2-2" style="text-decoration:none;color:black;">Google Map API</a>    
-> > <a href="#a2-3" style="text-decoration:none;color:black;">Naver Reverse-Geocode API</a>    
+> <a href="#a1" style="text-decoration:none;color:black;">● Firebase Cloud Messaging 기능 개발</a>   
+> <a href="#a2" style="text-decoration:none;color:black;">● Map API : 전기차 충전소 표시 기능 개발</a>    
+> > <a href="#a2-1" style="text-decoration:none;color:black;">- Naver Map API</a>    
+> > <a href="#a2-2" style="text-decoration:none;color:black;">- Google Map API</a>    
+> > <a href="#a2-3" style="text-decoration:none;color:black;">- Naver Reverse-Geocode API</a>    
+> > > <a href="#a2-1" style="text-decoration:none;color:black;">- 해당 API 이용하여 현 위치 주소 얻어오는 모듈 개발</a>    
 >    
-> <a href="#a3" style="text-decoration:none;color:black;">● Kakao Navi API</a>   
-> <a href="#a4" style="text-decoration:none;color:black;">● Smartro Pay</a>   
+> <a href="#a3" style="text-decoration:none;color:black;">● Kakao Navi API : 네비 연결 기능 개발</a>   
+> <a href="#a4" style="text-decoration:none;color:black;">● Smartro Pay : 결제 기능 개발</a>   
 >    
-> **[서버]**   
-> <a href="#a5" style="text-decoration:none;color:black;">● Http Rest API</a>   
-> <a href="#a6" style="text-decoration:none;color:black;">● NATs</a>   
+> **[서버 통신]**   
+> <a href="#a5" style="text-decoration:none;color:black;">● Http Rest API 통신 모듈 개발</a>   
+> <a href="#a6" style="text-decoration:none;color:black;">● NATs 통신 모듈 개발</a>   
 >    
 > **[라이브러리]**   
-> <a href="#a7" style="text-decoration:none;color:black;">● provider</a>   
-> <a href="#a8" style="text-decoration:none;color:black;">● NFC</a>   
-> > <a href="#a8-1" style="text-decoration:none;color:black;">MethodChannel 이용한 Navite Code Handler</a>   
-> 
+> <a href="#a7" style="text-decoration:none;color:black;">● provider 라이브러리 사용하여 상태 변경 데이터 처리</a>   
+> <a href="#a8" style="text-decoration:none;color:black;">● NFC 라이브러리 사용</a>   
+> > <a href="#a8-1" style="text-decoration:none;color:black;">- MethodChannel 이용한 Navite Code Handler 기능 개발</a>   
+>    
    
     
 ---
-
-# 기능 상세 설명
-<h2 id="a1">Firebase Cloud Messaging API</h2>
-<h2 id="a2">Map API</h2>
-<h3 id="a2-1">Naver Map API</h3>
-<h3 id="a2-2">Google Map API</h3>
-<h3 id="a2-3">Naver Reverse-Geocode API</h3>
-<h2 id="a3">Kakao Navi API</h2>
-<h2 id="a4">Smartro Pay</h2>
-<h2 id="a5">Http Rest API</h2>
-<h2 id="a6">NATs</h2>
-<h2 id="a7">provider</h2>
-<h2 id="a8">NFC</h2>
-<h3 id="a8-1">MethodChannel 이용한 Navite Code Handler</h3>

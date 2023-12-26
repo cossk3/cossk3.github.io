@@ -29,10 +29,3 @@ categories: ["Portfolio", "KoolSign"]
    
     
 ---
-
-<!-- # 기능 상세 설명
-<h2 id="a1">셋탑(홈트레이닝 구동 시스템) TCP/UDP Socket 통신</h2>
-<h2 id="a2">서버와 Rest API 통신</h2>
-<h3 id="a3">서버와 Stomp WebSocket 통신</h3>
-<h3 id="a4">셋탑과 통신하기 위한 Wi-Fi 기능</h3>
-<h3 id="a5">영상 컨트롤 위한 AVKit 라이브러리</h3>-->

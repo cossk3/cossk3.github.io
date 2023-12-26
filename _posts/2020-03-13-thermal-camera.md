@@ -9,33 +9,36 @@ categories: ["Portfolio", "KoolSign"]
   <img src="https://github.com/cossk3/cossk3.github.io/assets/44231144/8658181c-c5c9-481e-8f7d-e8568d22fd7e" width="100%">
 </p>
 
-> 개발 언어 : Android-java, C++   
+> 개발 언어 : Android-java, C++, SQLite   
 > 개발 도구 : Android Studio   
 > 개발 환경 : Windows, Android   
 > 개발 기간 : 2020.02 ~ 2023.03   
-> 개발 인원 : SW-1명, HW-2명   
+> 개발 인원 : SW-2명, HW-2명   
 
 ---
 # 개발 기능
+> **[카메라]**   
 > <a href="#a1" style="text-decoration:none;color:black;">● 열화상 카메라 연동 및 데이터 처리</a>   
+> > <a href="#a1" style="text-decoration:none;color:black;">- 온도 보정 로직 개발</a>   
+> > <a href="#a1" style="text-decoration:none;color:black;">- RGB 카메라와 열화상 카메라의 화각 조정 기능 개발</a>   
+>    
 > <a href="#a2" style="text-decoration:none;color:black;">● 거리 카메라 연동 및 데이터 처리</a>     
+> > <a href="#a1" style="text-decoration:none;color:black;">- 거리에 따른 열화상 카메라 온도 보정 로직 개발</a>   
+> > <a href="#a1" style="text-decoration:none;color:black;">- RGB 카메라와 거리 카메라의 화각 조정 기능 개발</a>   
+> 
 > <a href="#a3" style="text-decoration:none;color:black;">● 딥러닝 학습 모델 적용 및 데이터 처리</a>   
+> > <a href="#a1" style="text-decoration:none;color:black;">- 얼굴, 헬멧, 바디, 마스크 등 여러 학습 모델 tflite파일 적용 및 트래킹 기능 개발</a>   
+> > <a href="#a1" style="text-decoration:none;color:black;">- 얼굴 랜드마크 데이터를 이용한 온도 보정 로직 개발</a>   
+>    
 > <a href="#a4" style="text-decoration:none;color:black;">● QR Reader 모듈 연동 및 데이터 처리</a>   
+> > <a href="#a1" style="text-decoration:none;color:black;">- QR 코드 인식을 통한 출입문 통제 기능 개발</a>   
+>    
 > <a href="#a5" style="text-decoration:none;color:black;">● 혈압 측정계 연동 및 데이터 처리</a>   
 >    
 > **[서버 통신]**   
-> <a href="#a6" style="text-decoration:none;color:black;">● Mqtt</a>   
-> <a href="#a7" style="text-decoration:none;color:black;">● Http Rest API</a>   
+> <a href="#a6" style="text-decoration:none;color:black;">● Mqtt 통신 모듈 개발</a>   
+> <a href="#a7" style="text-decoration:none;color:black;">● Http Rest API 통신 모듈 개발</a>   
 > 
    
     
 ---
-
-# 기능 상세 설명
-<h2 id="a1">열화상 카메라 연동 및 데이터 처리</h2>
-<h2 id="a2">거리 카메라 연동 및 데이터 처리</h2>
-<h2 id="a3">딥러닝 학습 모델 적용 및 데이터 처리</h2>
-<h2 id="a4">QR Reader 모듈 연동 및 데이터 처리</h2>
-<h2 id="a5">혈압 측정계 연동 및 데이터 처리</h2>
-<h2 id="a6">Mqtt</h2>
-<h2 id="a7">Http Rest API</h2>
