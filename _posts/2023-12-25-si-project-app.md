@@ -18,14 +18,14 @@ categories: ["Portfolio", "KoolSign"]
 
 ---
 # 개발 기능
-> <a href="#a4" style="text-decoration:none;color:black;">● 셋탑과의 통신하기 위한 Wi-Fi 관련 기능 개발</a>   
-> > <a href="#a1" style="text-decoration:none;color:black;">- wifi connect, get list, connection monitoring 기능 개발</a>   
+> <a style="text-decoration:none;color:black;">● 셋탑과의 통신하기 위한 Wi-Fi 관련 기능 개발</a>   
+> > <a style="text-decoration:none;color:black;">- wifi connect, get list, connection monitoring 기능 개발</a>   
 >    
-> <a href="#a1" style="text-decoration:none;color:black;">● 셋탑(홈트레이닝 구동 시스템)과의 TCP/UDP Socket 통신 모듈 개발</a>   
-> <a href="#a2" style="text-decoration:none;color:black;">● 서버와 Rest API 통신 모듈 개발</a>   
-> <a href="#a3" style="text-decoration:none;color:black;">● 서버와 Stomp WebSocket 통신 모듈 개발</a>   
-> <a href="#a5" style="text-decoration:none;color:black;">● 영상 컨트롤 위한 AVKit 라이브러리 사용 및 기능 개발</a>   
-> <a href="#a5" style="text-decoration:none;color:black;">● Firebase Cloud Messaging 기능 개발</a>   
+> <a style="text-decoration:none;color:black;">● 셋탑(홈트레이닝 구동 시스템)과의 TCP/UDP Socket 통신 모듈 개발</a>   
+> <a style="text-decoration:none;color:black;">● 서버와 Rest API 통신 모듈 개발</a>   
+> <a style="text-decoration:none;color:black;">● 서버와 Stomp WebSocket 통신 모듈 개발</a>   
+> <a style="text-decoration:none;color:black;">● 영상 컨트롤 위한 AVKit 라이브러리 사용 및 기능 개발</a>   
+> <a style="text-decoration:none;color:black;">● Firebase Cloud Messaging 기능 개발</a>   
 > 
    
     

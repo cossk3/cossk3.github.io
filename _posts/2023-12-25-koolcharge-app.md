@@ -21,24 +21,24 @@ categories: ["Portfolio", "KoolSign"]
 ---
 # 개발 기능
 > **[외부 API]**   
-> <a href="#a1" style="text-decoration:none;color:black;">● Firebase Cloud Messaging 기능 개발</a>   
-> <a href="#a2" style="text-decoration:none;color:black;">● Map API : 전기차 충전소 표시 기능 개발</a>    
-> > <a href="#a2-1" style="text-decoration:none;color:black;">- Naver Map API</a>    
-> > <a href="#a2-2" style="text-decoration:none;color:black;">- Google Map API</a>    
-> > <a href="#a2-3" style="text-decoration:none;color:black;">- Naver Reverse-Geocode API</a>    
-> > > <a href="#a2-1" style="text-decoration:none;color:black;">- 해당 API 이용하여 현 위치 주소 얻어오는 모듈 개발</a>    
+> <a style="text-decoration:none;color:black;">● Firebase Cloud Messaging 기능 개발</a>   
+> <a style="text-decoration:none;color:black;">● Map API : 전기차 충전소 표시 기능 개발</a>    
+> > <a style="text-decoration:none;color:black;">- Naver Map API</a>    
+> > <a style="text-decoration:none;color:black;">- Google Map API</a>    
+> > <a style="text-decoration:none;color:black;">- Naver Reverse-Geocode API</a>    
+> > > <a style="text-decoration:none;color:black;">- 해당 API 이용하여 현 위치 주소 얻어오는 모듈 개발</a>    
 >    
-> <a href="#a3" style="text-decoration:none;color:black;">● Kakao Navi API : 네비 연결 기능 개발</a>   
-> <a href="#a4" style="text-decoration:none;color:black;">● Smartro Pay : 결제 기능 개발</a>   
+> <a style="text-decoration:none;color:black;">● Kakao Navi API : 네비 연결 기능 개발</a>   
+> <a style="text-decoration:none;color:black;">● Smartro Pay : 결제 기능 개발</a>   
 >    
 > **[서버 통신]**   
-> <a href="#a5" style="text-decoration:none;color:black;">● Http Rest API 통신 모듈 개발</a>   
-> <a href="#a6" style="text-decoration:none;color:black;">● NATs 통신 모듈 개발</a>   
+> <a style="text-decoration:none;color:black;">● Http Rest API 통신 모듈 개발</a>   
+> <a style="text-decoration:none;color:black;">● NATs 통신 모듈 개발</a>   
 >    
 > **[라이브러리]**   
-> <a href="#a7" style="text-decoration:none;color:black;">● provider 라이브러리 사용하여 상태 변경 데이터 처리</a>   
-> <a href="#a8" style="text-decoration:none;color:black;">● NFC 라이브러리 사용</a>   
-> > <a href="#a8-1" style="text-decoration:none;color:black;">- MethodChannel 이용한 Navite Code Handler 기능 개발</a>   
+> <a style="text-decoration:none;color:black;">● provider 라이브러리 사용하여 상태 변경 데이터 처리</a>   
+> <a style="text-decoration:none;color:black;">● NFC 라이브러리 사용</a>   
+> > <a style="text-decoration:none;color:black;">- MethodChannel 이용한 Navite Code Handler 기능 개발</a>   
 >    
    
     

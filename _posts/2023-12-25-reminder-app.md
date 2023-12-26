@@ -20,9 +20,9 @@ categories: ["Portfolio", "Study"]
 ---
 # 개발 기능
 > **[라이브러리]**
-> <a href="#a1" style="text-decoration:none;color:black;">● get</a>   
-> <a href="#a2" style="text-decoration:none;color:black;">● sqflite</a>    
-> <a href="#a3" style="text-decoration:none;color:black;">● flutter_local_notifications</a>   
+> <a style="text-decoration:none;color:black;">● get</a>   
+> <a style="text-decoration:none;color:black;">● sqflite</a>    
+> <a style="text-decoration:none;color:black;">● flutter_local_notifications</a>   
 > 
    
     

@@ -19,23 +19,23 @@ categories: ["Portfolio", "KoolSign"]
 ---
 # 개발 기능
 > **[임베디드 소프트웨어]**   
-> <a href="#a1" style="text-decoration:none;color:black;">● 통신 모듈 개발</a>   
-> > <a href="#a1-1" style="text-decoration:none;color:black;">- CAN 통신 (power 모듈, 절연모듈, PLC 모듈과의 통신 위함)</a>    
-> > <a href="#a1-3" style="text-decoration:none;color:black;">- Serial 통신 (android와의 통신 위함)</a>    
+> <a style="text-decoration:none;color:black;">● 통신 모듈 개발</a>   
+> > <a style="text-decoration:none;color:black;">- CAN 통신 (power 모듈, 절연모듈, PLC 모듈과의 통신 위함)</a>    
+> > <a style="text-decoration:none;color:black;">- Serial 통신 (android와의 통신 위함)</a>    
 >    
-> <a href="#a2" style="text-decoration:none;color:black;">● 모듈 및 센서 데이터 처리</a>   
-> > <a href="#a1-3" style="text-decoration:none;color:black;">- gpio handler 기능 개발</a>    
-> > <a href="#a1-3" style="text-decoration:none;color:black;">- isolation 모듈 handler 기능 개발</a>    
-> > <a href="#a1-3" style="text-decoration:none;color:black;">- power 모듈 handler 기능 개발</a>    
-> > <a href="#a1-3" style="text-decoration:none;color:black;">- PLC 모듈 handler 기능 개발</a>    
+> <a style="text-decoration:none;color:black;">● 모듈 및 센서 데이터 처리</a>   
+> > <a style="text-decoration:none;color:black;">- gpio handler 기능 개발</a>    
+> > <a style="text-decoration:none;color:black;">- isolation 모듈 handler 기능 개발</a>    
+> > <a style="text-decoration:none;color:black;">- power 모듈 handler 기능 개발</a>    
+> > <a style="text-decoration:none;color:black;">- PLC 모듈 handler 기능 개발</a>    
 >    
-> <a href="#a3" style="text-decoration:none;color:black;">● RTX 라이브러리 사용</a>  
+> <a style="text-decoration:none;color:black;">● RTX 라이브러리 사용</a>  
 >    
 > **[안드로이드 개발]**   
-> <a href="#a4" style="text-decoration:none;color:black;">● OCPP Open Source 연동 및 서버와의 통신 모듈 개발</a>   
-> <a href="#a5" style="text-decoration:none;color:black;">● Serial 통신 모둘 개발</a>   
-> <a href="#a6" style="text-decoration:none;color:black;">● 서버와의 Http Rest API 통신 모듈 개발</a>   
-> <a href="#a7" style="text-decoration:none;color:black;">● 카드 결제 모듈 연동 기능 개발</a>   
+> <a style="text-decoration:none;color:black;">● OCPP Open Source 연동 및 서버와의 통신 모듈 개발</a>   
+> <a style="text-decoration:none;color:black;">● Serial 통신 모둘 개발</a>   
+> <a style="text-decoration:none;color:black;">● 서버와의 Http Rest API 통신 모듈 개발</a>   
+> <a style="text-decoration:none;color:black;">● 카드 결제 모듈 연동 기능 개발</a>   
 >    
    
     
