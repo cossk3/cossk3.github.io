@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "[2022.02 ~ 2023.03] 중속 전기차 충전기"
+date: "2023-12-26 19:00:00"
 categories: ["Portfolio", "KoolSign"]
 ---
 

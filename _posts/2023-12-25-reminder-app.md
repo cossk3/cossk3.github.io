@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "[2023.11 ~ 2023.12] 나만의 냉장고 유통기한 관리 Reminder 앱"
+date: "2023-12-26 20:00:00"
 categories: ["Portfolio", "Study"]
 ---
 

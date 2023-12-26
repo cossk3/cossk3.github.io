@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "[2021.03 ~ 2021.10] SI 프로젝트 - 홈 트레이닝 영상 재생 앱"
+date: "2023-12-26 15:00:00"
 categories: ["Portfolio", "KoolSign"]
 ---
 

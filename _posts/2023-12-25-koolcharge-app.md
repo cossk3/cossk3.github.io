@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "[2022.02 ~ 2023.03] 전기차 충전기 Flutter 앱"
+date: "2023-12-26 18:00:00"
 categories: ["Portfolio", "KoolSign"]
 ---
 
