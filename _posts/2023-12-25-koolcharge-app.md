@@ -19,7 +19,7 @@ categories: ["Portfolio", "KoolSign"]
 > > <a href="https://apps.apple.com/kr/app/koolcharge-%EC%BF%A8%EC%B0%A8%EC%A7%80-%EB%82%98%EB%A5%BC-%EC%95%8C%EC%95%84%EB%B3%B4%EB%8A%94-ai%EC%B6%A9%EC%A0%84/id1663150470" style="text-decoration:none;color:blue;">App Store 링크</a>   
 
 ---
-# 개발 기능
+# 담당 역할 (개발 기능)
 > **[외부 API]**   
 > <a href="#a1" style="text-decoration:none;color:black;">● Firebase Cloud Messaging 기능 개발</a>   
 > <a href="#a2-1" style="text-decoration:none;color:black;">● Map API : 전기차 충전소 표시 기능 개발</a>    

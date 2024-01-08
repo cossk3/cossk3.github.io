@@ -17,7 +17,7 @@ categories: ["Portfolio", "KoolSign"]
 > 개발 인원 : 1명   
 
 ---
-# 개발 기능
+# 담당 역할 (개발 기능)
 > <a href="#a1" style="text-decoration:none;color:black;">● 셋탑과의 통신하기 위한 Wi-Fi 관련 기능 개발</a>   
 > > <a href="#a1" style="text-decoration:none;color:black;">- wifi connect, get list, connection monitoring 기능 개발</a>   
 >    
@@ -27,7 +27,12 @@ categories: ["Portfolio", "KoolSign"]
 > <a href="#a5" style="text-decoration:none;color:black;">● 영상 컨트롤 위한 AVKit 라이브러리 사용 및 기능 개발</a>   
 > <a href="#a6" style="text-decoration:none;color:black;">● Firebase Cloud Messaging 기능 개발</a>   
 > 
+
+---
+# 성과 / 기여도
++ 타 업체와의 협업, 커뮤니케이션 능력을 향상시킬 수 있는 계기가 됨
    
+    
 ---
 <h2 id="a1">● Wi-Fi 통신</h2>
 셋탑과의 Wi-Fi 통신을 위해 Wifi List를 스캔하고, 연결한다. 중간에 끊기는 경우를 대비하여 wifi 연결 체크 모니터링 로직도 추가했다.

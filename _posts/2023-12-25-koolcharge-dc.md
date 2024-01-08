@@ -17,7 +17,7 @@ categories: ["Portfolio", "KoolSign"]
 > 개발 인원 : SW-2명, HW-1명   
 
 ---
-# 개발 기능
+# 담당 역할 (개발 기능)
 > **[임베디드 소프트웨어]**   
 > <a href="#a1-1" style="text-decoration:none;color:black;">● 통신 모듈 개발</a>   
 > > <a href="#a1-1" style="text-decoration:none;color:black;">- CAN 통신 (power 모듈, 절연모듈, PLC 모듈과의 통신 위함)</a>    
@@ -37,6 +37,7 @@ categories: ["Portfolio", "KoolSign"]
 > <a href="#a6" style="text-decoration:none;color:black;">● 서버와의 Http Rest API 통신 기능 개발</a>   
 > <a href="https://docs.google.com/presentation/d/1FS-3UUCQwKY5WW1QUwINaVWJJ-Si_H5xQmyy1miCMAE/edit?usp=sharing" style="text-decoration:none;color:black;">● 충전 상태에 따른 초기 UI 및 기능 개발</a>  
 >    
+    
    
 ---
 <h2 id="a1-1">● CAN 통신</h2>

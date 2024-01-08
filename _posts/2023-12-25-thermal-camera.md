@@ -17,7 +17,7 @@ categories: ["Portfolio", "KoolSign"]
 > 개발 인원 : SW-2명, HW-2명   
 
 ---
-# 개발 기능
+# 담당 역할 (개발 기능)
 > **[카메라]**   
 > <a href="#a1" style="text-decoration:none;color:black;">● 열화상 카메라 연동 및 데이터 처리</a>   
 > > <a style="text-decoration:none;color:black;">- 온도 보정 로직 개발</a>   
@@ -38,8 +38,13 @@ categories: ["Portfolio", "KoolSign"]
 >    
 > **[서버 통신]**   
 > <a href="#a6" style="text-decoration:none;color:black;">● Mqtt 통신 모듈 개발</a>   
-> <a href="#a7" sstyle="text-decoration:none;color:black;">● Http 통신 모듈 개발</a>   
+> <a href="#a7" style="text-decoration:none;color:black;">● Http 통신 모듈 개발</a>   
 > 
+
+---
+# 성과 / 기여도
++ 주변온도와의 상관관계, 얼굴 랜드마크와의 상관관계 등을 분석하여 온도 로직을 개발해 ±0.2℃ 온도편차의 KOLAS 인증을 획득
++ 쿠팡 물류센터 출입구 및 통근버스 내 열화상카메라 구축/유지보수
    
     
 ---

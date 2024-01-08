@@ -19,7 +19,13 @@ categories: ["Portfolio", "Study"]
 > > <a href="https://apps.apple.com/us/app/reminder/id6473826546" style="text-decoration:none;color:red;">App Store 링크</a>   
 
 ---
-# 개발 기능
+# 성과 / 기여도
++ Get 라이브러리를 사용하여 효율적인 상태 관리를 통해 앱 최적화
+    
+
+---
+
+# 담당 역할 (개발 기능)
 > **[라이브러리]**    
 > <a href="#a1" style="text-decoration:none;color:black;">● get</a>   
 > <a href="#a2" style="text-decoration:none;color:black;">● sqflite</a>    
