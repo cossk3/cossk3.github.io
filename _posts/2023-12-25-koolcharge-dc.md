@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[2022.02 ~ 2023.03] 중속 전기차 충전기"
+title: "[2022.02 ~ 2023.03] 중속 전기차 충전기 임베디드 소프트웨어 및 Android 앱"
 date: "2023-12-26 19:00:00"
 categories: ["Portfolio", "KoolSign"]
 ---

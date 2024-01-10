@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[2020.02 ~ 2023.03] 열화상 카메라"
+title: "[2020.02 ~ 2023.03] 열화상 출입통제 솔루션 Android 앱"
 date: "2023-12-26 14:00:00"
 categories: ["Portfolio", "KoolSign"]
 ---
