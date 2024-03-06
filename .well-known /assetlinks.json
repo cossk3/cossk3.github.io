@@ -1,8 +1,0 @@
-[ { 
-  "relation" :  [ "delegate_permission/common.handle_all_urls" ] , 
-  "target" :  { 
-    "namespace" :  "android_app" , 
-    "package_name" :  "kr.co.trism.franchise1" , 
-    "sha256_cert_fingerprints" :  [ "9C:E3:BC:CA:2C:0D:FC:E7:73:6B:22:E7:5B:BD:95:82:78:99:CE:B7:F9:55:1E:10:9A:9E:F3:BF:22:BD:34:45" ] 
-  } 
-} ]
