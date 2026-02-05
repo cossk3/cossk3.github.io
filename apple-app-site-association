@@ -1,6 +1,13 @@
 {
   "applinks": {
     "apps": [],
-    "details": []
+    "details": [
+      {
+        "appID": "2637YF7R5S.kr.co.kncsol.ondongne",
+        "paths": [
+          "/open/*"
+        ]
+      }
+    ]
   }
 }
