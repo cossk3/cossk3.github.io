@@ -59,6 +59,12 @@ jobs:
         with:
           path: "_site${{ steps.pages.outputs.base_path }}"
 
+      - name: Copy AASA files
+        run: |
+          cp -f apple-app-site-association _site/apple-app-site-association
+          mkdir -p _site/.well-known
+          cp -f .well-known/apple-app-site-association _site/.well-known/apple-app-site-association
+
   deploy:
     environment:
       name: github-pages
