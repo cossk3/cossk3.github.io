@@ -1,89 +1,104 @@
 ---
 layout: post
-title: "[2020.02 ~ 2023.03] 열화상 출입통제 솔루션 Android 앱"
+title: "[2020.02 ~ 2023.03] AI 열화상 출입통제 솔루션 Android 앱 개발"
 date: "2023-12-26 14:00:00"
 categories: ["Portfolio", "KoolSign"]
 ---
 
-# AI 열화상 카메라 제품 개발
+# AI 열화상 출입통제 솔루션 Android 앱 개발
+
 <p width="100%">
   <img src="https://github.com/cossk3/cossk3.github.io/assets/44231144/8658181c-c5c9-481e-8f7d-e8568d22fd7e" width="100%">
 </p>
 
-> 개발 언어 : Android-java, C++, SQLite   
-> 개발 도구 : Android Studio   
-> 개발 환경 : Windows, Android   
-> 개발 기간 : 2020.02 ~ 2023.03   
-> 개발 인원 : SW-2명, HW-2명   
+- **개발 기간:** 2020.02 ~ 2023.03
+- **개발 인원:** SW 2명, HW 2명
+- **개발 언어:** Android Java, C++, SQLite
+- **개발 도구 및 환경:** Android Studio, Windows, Android
 
----
-# 담당 역할 (개발 기능)
-> **[카메라]**   
-> <a href="#a1" style="text-decoration:none;color:black;">● 열화상 카메라 연동 및 데이터 처리</a>   
-> > <a style="text-decoration:none;color:black;">- 온도 보정 로직 개발</a>   
-> > <a style="text-decoration:none;color:black;">- RGB 카메라와 열화상 카메라의 화각 조정 기능 개발</a>   
->    
-> <a href="#a2" style="text-decoration:none;color:black;">● 거리 카메라 연동 및 데이터 처리</a>     
-> > <a style="text-decoration:none;color:black;">- 거리에 따른 열화상 카메라 온도 보정 로직 개발</a>   
-> > <a style="text-decoration:none;color:black;">- RGB 카메라와 거리 카메라의 화각 조정 기능 개발</a>   
-> 
-> <a href="#a3" style="text-decoration:none;color:black;">● 딥러닝 학습 모델 적용 및 데이터 처리</a>   
-> > <a style="text-decoration:none;color:black;">- 얼굴, 헬멧, 바디, 마스크 등 여러 학습 모델 tflite파일 적용 및 트래킹 기능 개발</a>   
-> > <a style="text-decoration:none;color:black;">- 얼굴 랜드마크 데이터를 이용한 온도 보정 로직 개발</a>   
->    
-> <a href="#a4" style="text-decoration:none;color:black;">● QR Reader 모듈 연동 및 데이터 처리</a>   
-> > <a style="text-decoration:none;color:black;">- QR 코드 인식을 통한 출입문 통제 기능 개발</a>   
->    
-> <a href="#a5" style="text-decoration:none;color:black;">● 혈압 측정계 연동 및 데이터 처리</a>   
->    
-> **[서버 통신]**   
-> <a href="#a6" style="text-decoration:none;color:black;">● Mqtt 통신 모듈 개발</a>   
-> <a href="#a7" style="text-decoration:none;color:black;">● Http 통신 모듈 개발</a>   
-> 
+## 프로젝트 개요
 
----
-# 성과 / 기여도
-+ 주변온도와의 상관관계, 얼굴 랜드마크와의 상관관계 등을 분석하여 온도 로직을 개발해 ±0.2℃ 온도편차의 KOLAS 인증을 획득
-+ 쿠팡 물류센터 출입구 및 통근버스 내 열화상카메라 구축/유지보수
-   
-    
----
-<h2 id="a1">● 열화상 카메라</h2>
-초창기엔 해상도가 작은 Flir 열화상 카메라를, 그 후엔 해상도가 좀 더 큰 Seek 열화상 카메라를 사용하여 그에 따른 온도 보정과 데이터를 처리했다.
+- 열화상 카메라와 RGB 카메라를 활용한 체온 측정 및 출입통제 솔루션 개발
+- 거리 카메라, 딥러닝 모델, QR 리더기, 혈압 측정계 등 외부 장치와 Android 앱 연동
+- 측정 조건에 따른 온도 편차를 분석하고 실측 데이터 기반 온도 보정 로직 설계 및 구현
+- 물류센터 출입구 및 통근버스에 적용된 제품의 구축·유지보수 참여
+
+## 담당 업무
+
+- FLIR·Seek 열화상 카메라 연동 및 온도 데이터 처리
+- 측정 거리, 화면 영역, 실내외 환경 등을 고려한 온도 보정 테이블 직접 설계 및 보정 로직 구현
+- RGB·열화상 카메라 및 RGB·거리 카메라 간 화각 조정 기능 개발
+- 거리 카메라 데이터 연동 및 거리에 따른 온도 보정 처리
+- 얼굴·헬멧·신체·마스크 인식용 TFLite 모델 적용 및 추적 기능 개발
+- 얼굴 랜드마크 데이터를 활용한 온도 보정 처리
+- QR 리더기 및 혈압 측정계의 Serial 데이터 수신·처리
+- MQTT 및 HTTP 기반 서버 통신 기능 개발
+
+## 주요 구현 내용
+
+### 1. 실측 데이터 기반 열화상 카메라 온도 보정
+
+- 열화상 카메라의 측정값이 거리, 화면 내 위치, 실내외 환경 등 여러 조건에 따라 달라지는 특성을 고려하여 보정 로직 직접 설계
+- 특정 측정 거리에서 RGB 카메라와 열화상 카메라의 화각을 정렬한 후, 카메라 화면을 여러 영역으로 분할하여 측정 환경 구성
+- 수일간 화면 영역별 온도 데이터를 반복 측정하고 거리 및 환경 조건에 따른 측정 편차 분석
+- 분석한 실측 데이터를 바탕으로 측정 거리·화면 영역·실내외 환경 등을 고려한 온도 보정 테이블 구성
+- 보정 테이블을 활용한 온도 보정 로직 구현 및 제품 적용
+- 초기 FLIR 열화상 카메라와 이후 도입된 Seek 열화상 카메라의 데이터 처리 및 보정 기능 개발
+
+**구현 과정의 핵심**
+
+- 단일 조건의 측정값에 의존하지 않고 거리와 화면 위치, 측정 환경에 따른 편차를 반복 측정하여 보정 기준 수립
+- RGB 카메라와 열화상 카메라의 화각 차이를 고려한 측정 영역 정렬
+- 실측 데이터 분석 결과를 실제 앱의 온도 보정 처리에 반영
+
 <script src="https://gist.github.com/cossk3/24874e27e2742cb5b00b010e7b7734dc.js"></script>
 
+### 2. 거리 카메라 연동 및 측정 거리 반영
 
-ㅤㅤ   
-<h2 id="a2">● 거리 카메라</h2>
-거리에 따른 온도 보정을 위해 거리 카메라를 연동했고, 그에 따른 데이터를 처리했다.
+- 거리 카메라 연동을 통한 거리 데이터 수집 및 처리
+- 측정 거리에 따른 열화상 카메라 온도 보정 기능 구현
+- RGB 카메라와 거리 카메라의 화각 조정 기능 개발
+
 <script src="https://gist.github.com/cossk3/9cf63354c8aadb629fcb6e63a5822593.js"></script>
 
+### 3. 딥러닝 모델 및 얼굴 랜드마크 데이터 활용
 
-ㅤㅤ   
-<h2 id="a3">● 딥러닝 학습 모델 적용</h2>
-학습한 얼굴 모델 데이터를 불러와 그에 따른 데이터를 처리했다. 또, 헬멧, 바디, 마스크 등 다른 여러 학습 모델들도 마찬가지다.
+- 얼굴·헬멧·신체·마스크 등의 TFLite 학습 모델 적용 및 추적 기능 개발
+- 모델에서 얻은 얼굴 랜드마크 데이터를 활용한 온도 보정 처리
+
 <script src="https://gist.github.com/cossk3/38691286d0afb030ffd02b8281fcf759.js"></script>
 
+### 4. 외부 장치 연동
 
-ㅤㅤ   
-<h2 id="a4">● QR Reader</h2>
-QR Reader는 Serial 통신으로 데이터를 읽어와 처리했다.
+**QR 리더기**
+
+- Serial 통신으로 QR 리더기 데이터를 수신·처리
+- QR 코드 인식 결과를 활용한 출입문 통제 기능 개발
+
 <script src="https://gist.github.com/cossk3/9a3ac38924efdeb68156f0142dc0ad7e.js"></script>
 
+**혈압 측정계**
 
-ㅤㅤ   
-<h2 id="a5">● 혈압 측정계 연동</h2>
-혈압 측정계도 마찬가지로 USB를 연결하여 Serial 통신으로 데이터를 읽어와 처리했다.
+- USB로 연결된 혈압 측정계의 Serial 데이터 수신·처리
+
 <script src="https://gist.github.com/cossk3/72dee073655a9baee542f22b9d38a579.js"></script>
 
+### 5. 서버 통신
 
-ㅤㅤ   
-<h2 id="a6">● Mqtt</h2>
-서버와의 통신을 위해 Mqtt 통신 모듈을 구현했다.
+**MQTT**
+
+- 서버와의 데이터 통신을 위한 MQTT 모듈 구현
+
 <script src="https://gist.github.com/cossk3/5a9936a9d325766bbda42a29924c8e89.js"></script>
 
+**HTTP**
 
-ㅤㅤ   
-<h2 id="a7">● Http</h2>
-타 업체 서버와의 통신을 위해 Http 통신 모듈을 구현했다.
+- 외부 업체 서버와의 연동을 위한 HTTP 통신 모듈 구현
+
 <script src="https://gist.github.com/cossk3/c90c1773a509045e61c766c214592334.js"></script>
+
+## 성과 및 기여
+
+- 측정 거리·화면 영역·실내외 환경 등 다양한 조건에서 수집한 실측 데이터를 기반으로 온도 보정 테이블 및 로직 직접 설계·구현
+- 주변 온도와 얼굴 랜드마크 등 측정 관련 요소를 고려한 온도 보정 개발을 통해 **±0.2℃ 온도 편차 관련 KOLAS 인증 획득에 기여**
+- 쿠팡 물류센터 출입구 및 통근버스 내 열화상 카메라 솔루션 구축·유지보수 참여
